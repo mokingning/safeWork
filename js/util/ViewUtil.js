@@ -1,0 +1,70 @@
+/* eslint-disable prettier/prettier */
+import React from 'react';
+import {TouchableOpacity, View, Text} from 'react-native';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import AntDesign from 'react-native-vector-icons/AntDesign';
+export default class ViewUtil {
+  /**
+   * 获取左侧返回按钮
+   * @param callBack
+   * @returns {XML}
+   */
+  static getLeftBackButton(callBack) {
+    return (
+      <TouchableOpacity
+        style={{padding: 8, paddingLeft: 12}}
+        onPress={callBack}>
+        <Ionicons name={'ios-arrow-back'} size={26} style={{color: 'white'}} />
+      </TouchableOpacity>
+    );
+  }
+  /**
+   * 获取设置页的Item
+   * @param callBack 单击item的回调
+   * @param text 显示的文本
+   * @param color 图标着色
+   * @param Icons react-native-vector-icons组件
+   * @param icon 左侧图标
+   * @param expandableIco 右侧图标
+   * @return {XML}
+   */
+  static getSettingItem(callBack, text, color, Icons, icon, expandableIco) {
+    return (
+      <TouchableOpacity onPress={callBack}>
+        <View style={{alignItems: 'center', flexDirection: 'row'}}>
+          {Icons && icon ? (
+            <Icons
+              name={icon}
+              size={16}
+              style={{color: color, marginRight: 10}}
+            />
+          ) : (
+            <View
+              style={{opacity: 1, width: 16, height: 16, marginRight: 10}}
+            />
+          )}
+          <Text>{text}</Text>
+        </View>
+        <Ionicons
+          name={expandableIco ? expandableIco : 'ios-arrow-forward'}
+          size={16}
+          style={{
+            marginRight: 10,
+            alignSelf: 'center',
+            color: color || 'black',
+          }}
+        />
+      </TouchableOpacity>
+    );
+  }
+
+  static getCameraButton(callBack) {
+    return (
+      <TouchableOpacity
+        style={{padding: 8, paddingLeft: 12}}
+        onPress={callBack}>
+        <AntDesign name={'instagram'} size={26} style={{color: 'white'}} />
+      </TouchableOpacity>
+    );
+  }
+}

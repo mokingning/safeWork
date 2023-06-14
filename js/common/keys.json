@@ -1,0 +1,20 @@
+[
+  {
+    "path": "notice",
+    "name": "公告",
+    "checked": true,
+    "api":"sys-notice/list"
+  },
+  {
+    "path": "unsafe",
+    "name": "安全信息",
+    "checked": true,
+    "api":"sys-upload-unsafe/list"
+  },
+  {
+    "path":"studyInfo",
+    "name":"学习资源",
+    "checked":true,
+    "api":"sys-study/list"
+  }
+]
