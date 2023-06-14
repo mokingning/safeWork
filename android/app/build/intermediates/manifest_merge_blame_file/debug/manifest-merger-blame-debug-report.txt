@@ -1,0 +1,221 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.test3"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\rn\map\test3\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\rn\map\test3\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:2:5-67
+12-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:2:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:3:9-68
+13-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:3:26-66
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:4:1-77
+14-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:4:18-74
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:5:1-75
+15-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:5:18-72
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.facebook.flipper:flipper:0.125.0] C:\Users\船\.gradle\caches\transforms-3\9112988e20ad25c32468b7d009f10311\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+16-->[com.facebook.flipper:flipper:0.125.0] C:\Users\船\.gradle\caches\transforms-3\9112988e20ad25c32468b7d009f10311\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+17    <!--
+18         Required to keep CPU alive while downloading files
+19        (NOT to keep screen awake)
+20    -->
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-68
+21-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:22-65
+22    <!--
+23         Required to poll the state of the network connection
+24        and respond to changes
+25    -->
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to read and write the expansion files on shared storage -->
+26-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:5-79
+26-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:22-76
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Required to read and write the expansion files on shared storage for Android 11 -->
+27-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:5-81
+27-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:22-78
+28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Required to to download files without a notification -->
+28-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:5-80
+28-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:22-77
+29    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+29-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:5-88
+29-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:22-85
+30
+31    <queries>
+31-->[:react-native-image-crop-picker] D:\rn\map\test3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:15
+32        <intent>
+32-->[:react-native-image-crop-picker] D:\rn\map\test3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+33            <action android:name="android.media.action.IMAGE_CAPTURE" />
+33-->[:react-native-image-crop-picker] D:\rn\map\test3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-73
+33-->[:react-native-image-crop-picker] D:\rn\map\test3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-70
+34        </intent>
+35    </queries>
+36
+37    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+37-->[:react-native-amap-geolocation] D:\rn\map\test3\node_modules\react-native-amap-geolocation\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-76
+37-->[:react-native-amap-geolocation] D:\rn\map\test3\node_modules\react-native-amap-geolocation\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-73
+38    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+38-->[:react-native-amap-geolocation] D:\rn\map\test3\node_modules\react-native-amap-geolocation\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-75
+38-->[:react-native-amap-geolocation] D:\rn\map\test3\node_modules\react-native-amap-geolocation\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:22-72
+39    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+39-->[:react-native-amap-geolocation] D:\rn\map\test3\node_modules\react-native-amap-geolocation\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:5-89
+39-->[:react-native-amap-geolocation] D:\rn\map\test3\node_modules\react-native-amap-geolocation\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:22-86
+40    <uses-permission android:name="android.permission.BLUETOOTH" />
+40-->[:react-native-amap-geolocation] D:\rn\map\test3\node_modules\react-native-amap-geolocation\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:5-68
+40-->[:react-native-amap-geolocation] D:\rn\map\test3\node_modules\react-native-amap-geolocation\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:22-65
+41    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+41-->[:react-native-amap-geolocation] D:\rn\map\test3\node_modules\react-native-amap-geolocation\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-74
+41-->[:react-native-amap-geolocation] D:\rn\map\test3\node_modules\react-native-amap-geolocation\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:22-71
+42
+43    <application
+43-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:7:5-30:19
+44        android:name="com.test3.MainApplication"
+44-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:8:7-38
+45        android:allowBackup="false"
+45-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:12:7-34
+46        android:allowNativeHeapPointerTagging="false"
+46-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:14:7-52
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.7.0] C:\Users\船\.gradle\caches\transforms-3\a74319f16e76beadbf53eb2669b709f5\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+48        android:debuggable="true"
+49        android:icon="@mipmap/ic_launcher"
+49-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:10:7-41
+50        android:label="@string/app_name"
+50-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:9:7-39
+51        android:networkSecurityConfig="@xml/network_security_config"
+51-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:17:7-67
+52        android:roundIcon="@mipmap/ic_launcher_round"
+52-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:11:7-52
+53        android:theme="@style/AppTheme"
+53-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:16:7-38
+54        android:usesCleartextTraffic="true" >
+54-->D:\rn\map\test3\android\app\src\debug\AndroidManifest.xml:8:9-44
+55        <activity
+55-->D:\rn\map\test3\android\app\src\debug\AndroidManifest.xml:11:9-111
+56            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+56-->D:\rn\map\test3\android\app\src\debug\AndroidManifest.xml:11:19-83
+57            android:exported="false" />
+57-->D:\rn\map\test3\android\app\src\debug\AndroidManifest.xml:11:84-108
+58        <activity
+58-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:18:7-29:18
+59            android:name="com.test3.MainActivity"
+59-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:19:9-37
+60            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+60-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:21:9-118
+61            android:exported="true"
+61-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:24:9-32
+62            android:label="@string/app_name"
+62-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:20:9-41
+63            android:launchMode="singleTask"
+63-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:22:9-40
+64            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" >
+64-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:23:9-66
+65            <intent-filter>
+65-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:25:9-28:25
+66                <action android:name="android.intent.action.MAIN" />
+66-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:26:13-65
+66-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:26:21-62
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:27:13-73
+68-->D:\rn\map\test3\android\app\src\main\AndroidManifest.xml:27:23-70
+69            </intent-filter>
+70        </activity>
+71
+72        <provider
+72-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-45:20
+73            android:name="com.ReactNativeBlobUtil.Utils.FileProvider"
+73-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-70
+74            android:authorities="com.test3.provider"
+74-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-60
+75            android:exported="false"
+75-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-37
+76            android:grantUriPermissions="true" >
+76-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-47
+77            <meta-data
+77-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44:58
+78                android:name="android.support.FILE_PROVIDER_PATHS"
+78-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-67
+79                android:resource="@xml/provider_paths" />
+79-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-55
+80        </provider>
+81        <provider
+81-->[:react-native-image-crop-picker] D:\rn\map\test3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-26:20
+82            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+82-->[:react-native-image-crop-picker] D:\rn\map\test3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-94
+83            android:authorities="com.test3.provider"
+83-->[:react-native-image-crop-picker] D:\rn\map\test3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-60
+84            android:exported="false"
+84-->[:react-native-image-crop-picker] D:\rn\map\test3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+85            android:grantUriPermissions="true" >
+85-->[:react-native-image-crop-picker] D:\rn\map\test3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-47
+86            <meta-data
+86-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44:58
+87                android:name="android.support.FILE_PROVIDER_PATHS"
+87-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-67
+88                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+88-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-55
+89        </provider>
+90
+91        <activity
+91-->[:react-native-image-crop-picker] D:\rn\map\test3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-30:72
+92            android:name="com.yalantis.ucrop.UCropActivity"
+92-->[:react-native-image-crop-picker] D:\rn\map\test3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-60
+93            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+93-->[:react-native-image-crop-picker] D:\rn\map\test3\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-69
+94
+95        <provider
+95-->[:react-native-webview] D:\rn\map\test3\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+96            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+96-->[:react-native-webview] D:\rn\map\test3\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-83
+97            android:authorities="com.test3.fileprovider"
+97-->[:react-native-webview] D:\rn\map\test3\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-64
+98            android:exported="false"
+98-->[:react-native-webview] D:\rn\map\test3\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+99            android:grantUriPermissions="true" >
+99-->[:react-native-webview] D:\rn\map\test3\node_modules\react-native-webview\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+100            <meta-data
+100-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-44:58
+101                android:name="android.support.FILE_PROVIDER_PATHS"
+101-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-67
+102                android:resource="@xml/file_provider_paths" />
+102-->[:react-native-blob-util] D:\rn\map\test3\node_modules\react-native-blob-util\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-55
+103        </provider>
+104
+105        <service android:name="com.amap.api.location.APSService" />
+105-->[:react-native-amap-geolocation] D:\rn\map\test3\node_modules\react-native-amap-geolocation\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-68
+105-->[:react-native-amap-geolocation] D:\rn\map\test3\node_modules\react-native-amap-geolocation\lib\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:18-65
+106
+107        <provider
+107-->[androidx.emoji2:emoji2:1.0.0] C:\Users\船\.gradle\caches\transforms-3\1f6b54f5cbdc781497e11a050562adc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+108            android:name="androidx.startup.InitializationProvider"
+108-->[androidx.emoji2:emoji2:1.0.0] C:\Users\船\.gradle\caches\transforms-3\1f6b54f5cbdc781497e11a050562adc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+109            android:authorities="com.test3.androidx-startup"
+109-->[androidx.emoji2:emoji2:1.0.0] C:\Users\船\.gradle\caches\transforms-3\1f6b54f5cbdc781497e11a050562adc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+110            android:exported="false" >
+110-->[androidx.emoji2:emoji2:1.0.0] C:\Users\船\.gradle\caches\transforms-3\1f6b54f5cbdc781497e11a050562adc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+111            <meta-data
+111-->[androidx.emoji2:emoji2:1.0.0] C:\Users\船\.gradle\caches\transforms-3\1f6b54f5cbdc781497e11a050562adc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+112                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+112-->[androidx.emoji2:emoji2:1.0.0] C:\Users\船\.gradle\caches\transforms-3\1f6b54f5cbdc781497e11a050562adc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+113                android:value="androidx.startup" />
+113-->[androidx.emoji2:emoji2:1.0.0] C:\Users\船\.gradle\caches\transforms-3\1f6b54f5cbdc781497e11a050562adc3\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+114            <meta-data
+114-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\船\.gradle\caches\transforms-3\00e31c29ff8f041470feab912fa976cf\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+115                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+115-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\船\.gradle\caches\transforms-3\00e31c29ff8f041470feab912fa976cf\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+116                android:value="androidx.startup" />
+116-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\船\.gradle\caches\transforms-3\00e31c29ff8f041470feab912fa976cf\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+117        </provider>
+118    </application>
+119
+120</manifest>
